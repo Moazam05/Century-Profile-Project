@@ -1,0 +1,120 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .contactblock {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 275px;
+  }
+
+  .about-section .imggrid {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .about-section .imggrid-one {
+    margin-left: 20px;
+  }
+  .about-section .imggrid-two {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  about-section .kamran-two {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .about-section .imggrid-three {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .about-section .imggrid-four {
+    margin-left: 20px;
+    margin-top: 10px;
+    /* margin-top: -70px; */
+  }
+  .about-section .salman-four {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .about-section .imggrid-five {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .about-section .moazam-five {
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  .about-section .imggrid-six {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .about-section .imagegallerycolumn h5 {
+    margin-left: 25px !important;
+  }
+  .imagegallerycolumn {
+    .hwl {
+      margin-left: 30px !important;
+    }
+  }
+  .about-section .imagegallerycolumn button {
+    margin-left: 25px;
+  }
+  .audienceblockinside1youtube {
+    width: 80px;
+  }
+  .ProductImages {
+    .imagegalleryRow {
+      .imagegallerycolum {
+        .hwl {
+          margin-left: 25px;
+        }
+        .btn {
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+}

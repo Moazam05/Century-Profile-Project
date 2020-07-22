@@ -1,0 +1,75 @@
+.boxImageE {
+  border-style: dashed;
+  padding: 7px;
+  border-radius: 15px;
+  border-color: #f4f4f4;
+  width: 120%;
+  border-width: 3px;
+}
+
+.dashed {
+  border: dashed;
+  padding: 7px;
+  border-color: #f4f4f4;
+  border-radius: 11px;
+  margin-left: -40px;
+  width: 105%;
+}
+
+.startDiv {
+  width: 40rem;
+  height: 28rem;
+  border-radius: 10px;
+  border: 1.5px solid #eaeaea;
+}
+
+.card-Two {
+  width: 15rem;
+  height: 11rem;
+}
+
+.singleImage {
+  width: 6%;
+}
+
+.paragraph {
+  margin-left: 20px;
+  margin-top: -19px;
+}
+
+.cardTitle {
+  font-size: 22px;
+  font-weight: 900;
+  font-family: gilroy;
+}
+
+.buttonDiscardFeatured {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 20px;
+  border: 2px solid #eaeaea;
+  font-family: gilroy;
+  font-size: 13px;
+}
+
+.buttonFeatured {
+  background-color: #ff4f74;
+  color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 30px;
+  border-radius: 20px;
+  font-family: gilroy-bold;
+  cursor: pointer;
+}
+
+.linkTitle {
+  font-weight: 600;
+  border: 2px solid #eaeaea;
+}
+
+.boxColor {
+  background-color: #f4f4f4;
+}

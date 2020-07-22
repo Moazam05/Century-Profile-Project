@@ -1,0 +1,19 @@
+@import url("./Assets/css/style.scss");
+@import url("./Assets/css/Responsive.scss");
+@import url("./Assets/css/Products.scss");
+@import url("./Assets/css/NavGirl.scss");
+@import url("../src//Component/FormsComponents/UploadBottom.scss");
+
+@font-face {
+  font-family: gilroy;
+  src: url(./Assets/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: gilroy-bold;
+  src: url(./Assets/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+body {
+  font-family: gilroy;
+}

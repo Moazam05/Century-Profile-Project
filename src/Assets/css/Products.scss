@@ -1,0 +1,52 @@
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.form-control {
+  width: 85%;
+  border-radius: 1rem;
+}
+
+.img-icon {
+  margin-left: 425px;
+  margin-bottom: 10px;
+}
+.heading {
+  margin-left: 9px;
+  font-family: gilroy;
+  font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .form-control {
+    width: 95%;
+  }
+  .about-section .Products {
+    margin-bottom: -25px;
+    margin-top: 0px;
+  }
+  .img-icon {
+    margin-left: 70px;
+    margin-bottom: 5px;
+  }
+}

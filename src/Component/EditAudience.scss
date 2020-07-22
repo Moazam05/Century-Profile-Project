@@ -1,0 +1,50 @@
+.headingAudience {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.allText {
+  font-size: 11px;
+  font-weight: 900;
+  font-family: gilroy-bold;
+}
+
+.labelWidth {
+  width: 90%;
+}
+
+.infoWidth {
+  width: 145%;
+}
+
+.infoWidthSecond{
+    width: 132%;
+}
+
+.buttonDiscardAudience {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 20px;
+  border: 2px solid #eaeaea;
+  font-family: gilroy;
+  font-size: 13px;
+}
+
+.buttonNextAudience {
+  background-color: #ff4f74;
+  color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 30px;
+  border-radius: 20px;
+  font-family: gilroy-bold;
+  cursor: pointer;
+}
+
+.audienceDiv {
+  border-radius: 10px;
+  border: 1.5px solid #eaeaea;
+  width: 45rem;
+}

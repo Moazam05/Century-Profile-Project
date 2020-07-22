@@ -1,0 +1,221 @@
+/*   Nav bar Start   */
+
+.smartProfile {
+  margin-left: 95px;
+}
+
+.inputLock {
+  margin-left: 10px;
+  height: 25px;
+  margin-top: 9px;
+  padding: 0px;
+  width: 16rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+.inputUser {
+  height: 25px;
+  margin-top: 9px;
+  padding: 0px;
+  width: 16rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+.power {
+  font-size: 11px;
+  margin-left: 10px;
+  font-family: gilroy-bold;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.loginBtn {
+  height: 25px;
+  margin-top: 9px;
+  color: white;
+  background-color: #ff4f74;
+  border: none;
+  background-image: linear-gradient(to right, #f1557a, #34a4c8);
+  width: 75px;
+  margin-left: 10px;
+}
+.rightImageNav {
+  margin-right: 100px;
+  margin-top: -10px;
+}
+
+/*   Nav bar End   */
+
+/*   First Fraction Start   */
+.firstFractionDiv {
+  margin-left: 135px;
+  .card {
+    width: 18rem;
+    border: none;
+  }
+
+  .headingFiveFirst {
+    font-size: 25px;
+    font-family: gilroy;
+    font-weight: 900;
+  }
+
+  .headingFiveSecond {
+    font-size: 25px;
+    font-family: gilroy;
+    font-weight: 900;
+  }
+  p {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .buttonCreateANewProfile {
+    background-color: #ff4f74;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 20px;
+    margin-right: 15px;
+    font-family: gilroy-bold;
+    cursor: pointer;
+    margin-left: -2px;
+  }
+}
+/*   First Fraction End   */
+
+/*   Second Fraction End   */
+
+.fahad {
+  font-family: gilroy;
+  margin-left: 2rem;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.secondFraction {
+  width: 77%;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 0.6em #f4f4f4;
+
+  .nextButton {
+    background-color: #ff4f74;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 20px;
+    // margin-right: 15px;
+    font-family: gilroy-bold;
+    cursor: pointer;
+    margin-left: -2px;
+    margin-top: 20px;
+    margin-left: 85%;
+  }
+}
+
+/*   Second Fraction End   */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+}
+
+.signUp-card {
+  width: 75%;
+}
+
+@media (min-width: 360px) and (max-width: 988px) {
+  .signUp-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1300px) {
+  .nextButton {
+    margin-left: 280px !important;
+  }
+}
+
+.nav {
+  display: inline;
+}
+
+.firstName {
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.emailAddress {
+  font-weight: 900;
+}
+
+.testMail {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.country {
+  margin-top: 18px;
+  margin-left: -18px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lastColumn {
+  margin-top: 20px;
+}
