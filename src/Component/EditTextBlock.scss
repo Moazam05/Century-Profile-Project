@@ -1,0 +1,45 @@
+.editTextBlock {
+  font-size: 25px;
+  font-family: gilroy-bold;
+  font-weight: 900;
+  margin-left: 7px;
+}
+
+.textBlock {
+  border-radius: 25px;
+  border: 1.5px solid #eaeaea;
+  width: 43rem;
+}
+
+.placeBlock {
+  width: 98%;
+  font-weight: 900;
+  font-family: gilroy-bold;
+}
+
+.disignHH {
+  margin-left: 25px;
+  margin-right: 3px;
+}
+
+.buttonDiscardETB {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 20px;
+  border: 2px solid #eaeaea;
+  font-family: gilroy;
+  font-size: 13px;
+}
+
+.buttonSaveETB {
+  background-color: #ff4f74;
+  color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 30px;
+  border-radius: 20px;
+  font-family: gilroy-bold;
+  cursor: pointer;
+}
