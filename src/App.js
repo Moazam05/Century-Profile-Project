@@ -11,11 +11,13 @@ import SignUp from "./Component/SingUp";
 import EditCoverPhoto from "./Component/EditCoverPhoto";
 import EditFeaturedLink from "./Component/EditFeaturedLink";
 import UploadPhoto from "./Component/UploadPhoto";
-import EditAudience from "./Component/EditCoverPhoto";
+// import EditAudience from "./Component/EditCoverPhoto";
 import EditPhysicalAttribute from "./Component/EditPhysicalAttribute";
 import EditLanguage from "./Component/EditLanguage";
 import EditServicePricing from "./Component/EditServicePricing";
 import SkillCentury from "./Component/SkillCentury";
+
+import EditInterest from "./Component/EditInterest";
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
           <Route exact path="/EditCoverPhoto" component={EditCoverPhoto} />
           <Route exact path="/EditFeaturedLink" component={EditFeaturedLink} />
           <Route exact path="/UploadPhoto" component={UploadPhoto} />
-          <Route exact path="/EditAudience" component={EditAudience} />
+          {/* <Route exact path="/EditAudience" component={EditAudience} /> */}
           <Route exact path="/EditLanguage" component={EditLanguage} />
           <Route exact path="/SkillCentury" component={SkillCentury} />
+
+          <Route exact path="/EditInterest" component={EditInterest} />
           <Route
             exact
             path="/EditServicePricing"
