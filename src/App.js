@@ -15,6 +15,7 @@ import EditAudience from "./Component/EditCoverPhoto";
 import EditPhysicalAttribute from "./Component/EditPhysicalAttribute";
 import EditLanguage from "./Component/EditLanguage";
 import EditServicePricing from "./Component/EditServicePricing";
+import SkillCentury from "./Component/SkillCentury";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/UploadPhoto" component={UploadPhoto} />
           <Route exact path="/EditAudience" component={EditAudience} />
           <Route exact path="/EditLanguage" component={EditLanguage} />
+          <Route exact path="/SkillCentury" component={SkillCentury} />
           <Route
             exact
             path="/EditServicePricing"
