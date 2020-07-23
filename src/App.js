@@ -16,9 +16,9 @@ import EditPhysicalAttribute from "./Component/EditPhysicalAttribute";
 import EditLanguage from "./Component/EditLanguage";
 import EditServicePricing from "./Component/EditServicePricing";
 import SkillCentury from "./Component/SkillCentury";
-
 import EditInterest from "./Component/EditInterest";
 import EditTextBlock from "./Component/EditTextBlock";
+import EditExperience from "./Component/EditExperience";
 
 function App() {
   return (
@@ -33,8 +33,8 @@ function App() {
           <Route exact path="/EditLanguage" component={EditLanguage} />
           <Route exact path="/SkillCentury" component={SkillCentury} />
           <Route exact path="/EditTextBlock" component={EditTextBlock} />
-
           <Route exact path="/EditInterest" component={EditInterest} />
+          <Route exact path="/EditExperience" component={EditExperience} />
           <Route
             exact
             path="/EditServicePricing"
